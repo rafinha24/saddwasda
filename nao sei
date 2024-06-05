@@ -1,0 +1,6 @@
+O join é uma ferramenta do postgreSQL, onde ele serve para combinar registro de duas tabelas quando houver valores correspondentes de um campo comum entre as duas tabelas.
+ A importancia do join no postgreSQL seria a exploração das relações feitas entre as tabelas, recuperar informações de uam forma cosistente e organizada  e evita  duplicações desnecessárias.
+
+
+
+ Podemos concluir que a unica diferença é a forma de escrita, pois o resultado será o mesmo. Porém é recomendado Inner Join, pois deixa o codigo com a leitura mais facil e organizada, ainda mais quando usado com outros joins como left join, right join, entre outros. 
