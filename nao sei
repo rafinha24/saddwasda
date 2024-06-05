@@ -4,3 +4,12 @@ O join é uma ferramenta do postgreSQL, onde ele serve para combinar registro de
 
 
  Podemos concluir que a unica diferença é a forma de escrita, pois o resultado será o mesmo. Porém é recomendado Inner Join, pois deixa o codigo com a leitura mais facil e organizada, ainda mais quando usado com outros joins como left join, right join, entre outros. 
+
+
+Tipos de joins:
+SELF JOIN: trata-se de uma operação que permite que uma tabela faça join consigo mesma.
+INNER JOIN: Retorna apenas as linhas que têm correspondência em ambas as tabelas.
+LEFT JOIN: Retorna todas as linhas da tabela à esquerda e as correspondentes da tabela à direita, preenchendo com NULL onde não há correspondência.
+RIGHT JOIN: Retorna todas as linhas da tabela à direita e as correspondentes da tabela à esquerda, preenchendo com NULL onde não há correspondência.
+FULL JOIN: Combina LEFT JOIN e RIGHT JOIN, retornando todas as linhas quando há correspondência em uma ou ambas as tabelas.
+CROSS JOIN: Retorna o produto cartesiano das duas tabelas
